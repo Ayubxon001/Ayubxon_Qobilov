@@ -1,0 +1,82 @@
+.finds {
+  width: 100%;
+  height: 100%;
+  padding: 0px 88px 88px;
+}
+
+.finds hr {
+  width: 80px;
+  height: 4px;
+  background-color: rgb(171, 4, 51);
+  margin: 0 auto;
+}
+
+.finds h2 {
+  color: #505050;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+.finds .d_grid_1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 32px;
+}
+
+.finds .d_grid_1 .box {
+  height: 467px;
+  padding-top: 20px;
+}
+
+.finds .d_grid_1 .box .guitar {
+  width: 100%;
+  height: 252px;
+  border-radius: 10px 10px 0px 0px;
+  background: radial-gradient(138.81% 138.29% at 1.22% 1.08%, #fbfbfb 0%, #d3d3d3 100%);
+  padding: 0 64px;
+}
+
+.finds .d_grid_1 .box .guitar_data {
+  width: 100%;
+  height: 139px;
+  border-radius: 0px 0px 10px 10px;
+  background: var(--true-white, #fff);
+  box-shadow: 0px 3px 3px 0 rgb(118, 118, 118);
+  padding: 16px 24px 24px;
+}
+
+.finds .d_grid_1 .box .guitar_data .brand_name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.finds .d_grid_1 .box .guitar_data .brand_name h4 {
+  color: var(--252525, #252525);
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
+
+.finds .d_grid_1 .box .guitar_data p {
+  color: var(--767676, #767676);
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 130%;
+  margin: 7px 0;
+}
+
+.finds .d_grid_1 .box .guitar_data button {
+  padding: 2px 8px;
+  border-radius: 20px;
+  border: 1px solid var(--eaeaea, #eaeaea);
+  border: none;
+}/*# sourceMappingURL=finds.css.map */

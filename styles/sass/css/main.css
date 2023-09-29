@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+input,
+button,
+a ul,
+li {
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+  outline: none;
+  background-color: none;
+}
+
+.container {
+  max-width: 1280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.hero {
+  position: relative;
+  background-image: url(/images/unsplash_gioH4gHo0-g.png);
+  width: 100%;
+  height: 848px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 56px 88px;
+}
+.hero .ul_navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 15px;
+  color: #fcfcfc;
+  text-align: center;
+  /* H6 */
+  font-family: Work Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 23.4px */
+}
+.hero .vector_img {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-right: 70px;
+}
+.hero .hero_h1 {
+  margin-top: 150px;
+  margin-left: 88px;
+  color: #fff;
+  font-family: Work Sans;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 67.2px */
+  letter-spacing: 1.12px;
+}
+.hero .cont {
+  position: relative;
+  position: absolute;
+  left: 190px;
+  bottom: -50px;
+  width: 1264px;
+  height: 230px;
+  text-align: center;
+  padding: 50px;
+  background-image: url(/images/Mobile.png);
+}
+.hero .cont_h2 {
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 55.2px */
+}
+.hero .cont_p {
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 149%; /* 35.76px */
+  margin-top: 20px;
+}
+.hero .cont_button {
+  width: 150px;
+  height: 30px;
+  border-radius: 40px;
+  background: #ff753a;
+  color: #fff;
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%; /* 18.2px */
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .ul_navbar, .vector_img {
+    display: none !important;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

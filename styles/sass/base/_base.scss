@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+input,
+button,
+a ul,
+li {
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    outline: none;
+    background-color: none;
+}
+
+.container {
+    max-width: 1304px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto; 
+    // border:1px solid red;
+}
